@@ -1,29 +1,29 @@
-# 📚 Study Tracker
+# Study Tracker
 
 A full-stack web application designed to help students track their study hours, analyze their performance, and predict future grades. Built with a **Java Spring Boot** backend and a **React.js** frontend, stored in **MongoDB**.
 
 [App Version](https://github.com/chrislleung/Logit-Study-Tracker) 
 
-## ✨ Features
+## Features
 
 ### ⏱️ Study Tracking
 * **Real-time Timer:** Stopwatch to track live study sessions for specific classes.
 * **Session History:** Detailed logs of start times, end times, and durations.
 * **Subject Totals:** At-a-glance view of total hours dedicated to each subject.
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 * **Data Visualization:** Interactive graphs built with Recharts.
 * **Correlation Analysis:** Scatter charts visualizing the relationship between **Time Studied** and **Grades Achieved**.
 * **Efficiency Metrics:** Bar charts displaying "Points per Hour" to help identify which subjects you are most efficient in.
 * **KPIs:** Key Performance Indicators like Average Efficiency.
 
-### 🧮 Predictive Grade Calculator
+### Predictive Grade Calculator
 * **Goal Setting:** Enter a target grade (e.g., 90%) to calculate exactly what score you need on remaining exams.
 * **Time Prediction Engine:** Uses linear regression on your past data to predict **how many hours** you need to study to achieve your target score.
 * **Custom Scenarios:** Add hypothetical grades to see how they impact your overall average (Normalized and Absolute).
 * **Dynamic Configuration:** Create custom assignment types (e.g., Labs, Quizzes, Projects) and assign specific weights.
 
-### 🗂️ Class & Semester Management
+### Class & Semester Management
 * **Semester Tabs:** Organize classes by semester with Archive/Unarchive functionality.
 * **Customizable Classes:** Add/Delete subjects and configure unique grading scales for each.
 * **Assignment Sync:** Assignments added in the Calculator automatically sync to your Tracker.
@@ -43,7 +43,7 @@ A full-stack web application designed to help students track their study hours, 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project running on your local machine.
 
@@ -83,7 +83,7 @@ Follow these instructions to get a copy of the project running on your local mac
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 StudyTracker/
